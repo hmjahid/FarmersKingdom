@@ -189,3 +189,12 @@ footer .social-icon li i:hover {
 .copyright {
     font-size: 18px;
 }
+
+iframe{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
