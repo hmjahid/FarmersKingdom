@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css"/>
 </head>
 <body>
-    
+
     <nav class="navbar navbar-dark bg-dark fixed-top">
-        
         <div class="container-fluid">
+         
           <a class="navbar-brand" href="index.html" style="font-size: 40px; text-shadow: 10px;">Farmer's Kingdom</a>
 
           <div class="col-sm-7 headerListDiv">
@@ -62,41 +62,48 @@
             </div>
           </div>
         </div>
-        <marquee onmouseenter="this.stop()"; onmouseleave="this.start()"><a href="https://live3.bmd.gov.bd/" target="_blank">Latest Weather Upadte : সর্বশেষ আবহাওয়া রিপোর্ট</a></marquee>
       </nav>
 
 
 
-      <div class="container-fluid slideBar" style="width: 70%; margin-top: 125px">
+      <div class="container-fluid slideBar" style="width: 70%; margin-top: 75px">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+
+        <a href="#farmers-in-field">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="images/farmers in field.jpg" class="d-block w-100" alt="Farmers in field">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Farmers in field</h5>
+              <h5>Farmers On-Duty in Field</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
+         </a>
+
+          <a href="#farmers-with-crops">
           <div class="carousel-item" data-bs-interval="2000">
             <img src="images/farmers smily face.jpg" class="d-block w-100" alt="Farmers smily face">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Farmers smily face</h5>
+              <h5>Farmers with Rippen Crops</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
-
+        </a>
+          
+          <a href="#harvesting-crops">
           <div class="carousel-item">
             <img src="images/farmers in jute land.jpg" class="d-block w-100" alt="Farmers in jute land">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Farmers in jute land</h5>
+              <h5>Harvesting Crops</h5>
               <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
+        </a>
           
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -110,8 +117,12 @@
       </div>
     </div>
 
+    <div class="container" id="marguee-top">
+      <marquee onmouseenter="this.stop()"; onmouseleave="this.start()"><a href="https://live3.bmd.gov.bd/" target="_blank">Latest Weather Upadte : সর্বশেষ আবহাওয়া রিপোর্ট</a></marquee>
+    </div>
+      
 
-      <div class="container-fluid farmers-in-field" style="width: 70%;">
+      <div class="container-fluid farmers-in-field" id="farmers-in-field" style="width: 70%;">
         <h1>Farmers On-Duty in Field</h1>
 
         <div class="card-group" style="margin-top: 25px;">
@@ -144,8 +155,8 @@
       </div>
 
 
-      <div class="container-fluid farmers-with-crops" style="width: 70%;">
-        <h1>Farmer's with Rippen Crops</h1>
+      <div class="container-fluid farmers-with-crops" id="farmers-with-crops" style="width: 70%;">
+        <h1>Farmers with Rippen Crops</h1>
 
         <div class="card-group" style="margin-top: 25px;">
           <div class="card">
@@ -176,7 +187,7 @@
   
       </div>
 
-      <div class="container-fluid harvesting-crops" style="width: 70%;">
+      <div class="container-fluid harvesting-crops" id="harvesting-crops" style="width: 70%;">
         <h1>Harvesting Crops</h1>
 
         <div class="card-group" style="margin-top: 25px;">
