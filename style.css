@@ -51,6 +51,7 @@ a{
 
 .slideBar img{
     height:400px;
+    border-radius: 10px;
 }
 
 .social-icon {
@@ -218,34 +219,40 @@ iframe{
     margin-top: 20px;
 }
 .farmers-in-field h1{
-    color:rgb(111, 34, 102);
+   
     text-align: center;
     font-weight: 1000;
-    margin: 0px 0px -5px 0px;
+    margin: 0px 0px -24px 0px;
 }
 .farmers-with-crops h1{
-    color:rgb(111, 34, 102);
+    
     text-align: center;
     font-weight: 1000;
-    margin: 25px 0px -5px 0px;
+    margin: 25px 0px -24px 0px;
 }
 .harvesting-crops h1{
-    color:rgb(111, 34, 102);
+    
     text-align: center;
     font-weight: 1000;
-    margin: 25px 0px -5px 0px;
+    margin: 25px 0px -24px 0px;
 }
 .latest-events h1{
-    color:rgb(111, 34, 102);
+    
     text-align: center;
     font-weight: 1000;
-    margin: 25px 0px -5px 0px;
+    margin: 25px 0px -24px 0px;
 }
 .weather-report h1{
-    color:rgb(111, 34, 102);
+    
     text-align: center;
     font-weight: 1000;
-    margin: 20px 0px -5px 0px;
+    margin: 25px 0px -20px 0px;
+}
+.weather-forcast h1{
+    
+    text-align: center;
+    font-weight: 1000;
+    margin: 25px 0px -20px 0px;
 }
 
 #marquee-top{
@@ -274,3 +281,13 @@ iframe{
     margin-left: 160px;
 }
 
+.section-heading{
+    background-color: rgb(67, 16, 78);
+    border-radius: 10px;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+iframe{
+    border-radius: 10px;
+}
