@@ -5,9 +5,7 @@
     
 }
 .marquee-top{
-    display: fixed;
-    height: 10px;
-    background-color: rgb(37, 75, 37);
+    height: 20px;
 }
 
 footer {
@@ -67,8 +65,8 @@ a{
   font-style: italic;
   font-size: 80px;
   font-stretch: expanded;
-  font-weight: 800;
-  padding-top: 500px;
+  font-weight: 1000;
+  padding-top: 450px;
 }
 
 .featured-photo{
@@ -91,10 +89,18 @@ a{
 }
 
 marquee a{
-    color: red;
+    color: rgb(209, 16, 16);
     font-size: 20px;
+    background-color: white ;
+    padding: 5px;
+    
 }
 
+marquee{
+  padding-top: 50px;
+  width: 100%;
+ 
+}
 
 .social-icon li {
     list-style: none;
