@@ -54,6 +54,27 @@ a{
     border-radius: 10px;
 }
 
+.welcome-section{
+  margin-bottom: 20px;
+  background-image: url(images/1200px-Rice_field_and_country_house_bangladesh.JPG);
+  background-size: cover;
+  border-radius: 10px;
+
+}
+.welcome-section h1{
+  color: crimson;
+  text-align: center;
+  font-style: italic;
+  font-size: 80px;
+  font-stretch: expanded;
+  font-weight: 800;
+  padding-top: 500px;
+}
+
+.featured-photo{
+  border-radius: 10px;
+}
+
 .social-icon {
     padding: 0;
     margin-bottom: 0px;
