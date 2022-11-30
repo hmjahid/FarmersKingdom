@@ -27,6 +27,18 @@
   padding-top: 150px;
 }
 
+.thirdNavigationLink{
+  display: flex;
+  justify-content: center;
+  justify-items: center; 
+  color: rgb(244, 247, 244); 
+}
+
+.thirdNavigationLink h4{
+  font-size: 20px;
+  text-align: center;
+}
+
 footer {
     color: #fff;
 }
